@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: auto;
+    flex-wrap: wrap;
+}
+.container{
+   display: flex;
+   height: 60vh;
+   width: 35vw;
+   font-size: 14px;
+}
+.content{
+    background-color: white;
+    padding: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{
+    height: 60vh;
+    width: 19vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.title{
+    font-family: Montserrat;
+}
+h1{
+    font-family: Fraunces;
+    font-size: 30px;
+}
+.para{
+    font-family: Montserrat ;
+}
+b{
+    font-size: 30px;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+}
+del{
+    font-size: 15px;
+    font-family: Fraunces;
+}
+.btn{
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+  
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+svg{
+    margin-left: 30px;
+    color: white;
+}
